@@ -1,2 +1,11 @@
-[[[# sharekey](https://prod.liveshare.vsengsaas.visualstudio.com/join?C25ED8F4590679283E506DA4411BCD661E5C)
-](https://prod.liveshare.vsengsaas.visualstudio.com/join?C25ED8F4590679283E506DA4411BCD661E5C)](https://prod.liveshare.vsengsaas.visualstudio.com/join?C25ED8F4590679283E506DA4411BCD661E5C)
+# Download and install fnm:
+curl -o- https://fnm.vercel.app/install | bash
+
+# Download and install Node.js:
+fnm install 20
+
+# Verify the Node.js version:
+node -v # Should print "v20.18.2".
+
+# Verify npm version:
+npm -v # Should print "10.8.2".
